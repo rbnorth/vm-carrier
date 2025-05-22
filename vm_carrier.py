@@ -1,4 +1,4 @@
-#!/usr/bin/env pytho3n
+#!/usr/bin/env python3
 
 import argparse
 import subprocess
