@@ -131,7 +131,7 @@ def main():
         '''The service account email for the instance.'''))
     
     # Required subnet argument
-    parser.add_argument("--subnet", required=True, help="The subnet to use for the instance.")
+    parser.add_argument("--subnet", required=True, help="The subnet to deliver the vm to.")
     
     # Parse the arguments from the command line
     args = parser.parse_args()
